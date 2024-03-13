@@ -4,7 +4,7 @@
 
 A user-friendly interface (SPA - Single Page Application) for performing CRUD operations on holiday plans. It displays all holiday plans with their titles, descriptions, dates, locations, number of participants and also a Dashboard with additional detailed information. The interface also includes a button to print the selected holiday plan to PDF. Built with React, React Router, Vite, CSS, and Node.js.
 
-## How to start
+## Initial Interface Interaction Guide
 
 - Click on the "Holiday Plans" tab in the upper-right corner of the screen;
 - Then, click on the "Add New Holiday Plan" tab;

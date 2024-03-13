@@ -227,6 +227,12 @@ input, textarea, select {
 
 }
 
+@media screen and (max-width: 510px) {
+  .logo {
+    margin-right: 3rem; 
+  }
+}
+
 /* @media (max-width: 750px) {
   header {
     width: 50rem;
