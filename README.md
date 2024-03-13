@@ -4,46 +4,54 @@
 
 A user-friendly interface (SPA - Single Page Application) for performing CRUD operations on holiday plans. It displays all holiday plans with their titles, descriptions, dates, locations, number of participants and also a Dashboard with additional detailed information. The interface also includes a button to print the selected holiday plan to PDF. Built with React, React Router, Vite, CSS, and Node.js.
 
+## How to start
+
+- Click on the "Holiday Plans" tab in the upper-right corner of the screen;
+- Then, click on the "Add New Holiday Plan" tab;
+- Add different plans with 3 people or fewer, with more than 3 people and with varying details;
+- After each plan insertion, check the Dashboard to observe what happens after 10 minutes.
+- Try navigating through the website tabs and experimenting with the different buttons and information available on the dashboard and throughout the interface.
+
 ## Features
 
   Dashboard displaying:
-  - Total holiday plans number
-  - Total people across all events
-  - Quantity of holiday plans added in the last 10 minutes
-  - List of holiday plans added in the last 10 minutes
-  - Quantity of holiday plans for up to 3 people
-  - List of holiday plans for up to 3 people
-  - Show button (click to view selected plan)
+  - Total holiday plans number;
+  - Total people across all events;
+  - Quantity of holiday plans added in the last 10 minutes;
+  - List of holiday plans added in the last 10 minutes;
+  - Quantity of holiday plans for up to 3 people;
+  - List of holiday plans for up to 3 people;
+  - Show button (click to view selected plan).
 
   Holiday plans list page with:
-  - Table displaying summarized holiday plans information
-  - Buttons to show more details, update, and delete each plan
+  - Table displaying summarized holiday plans information;
+  - Buttons to show more details, update, and delete each plan.
 
   Detailed holiday plan information page (triggered by clicking 'show') with:
-  - All item properties (event name, number of people, date and hour, location, description)
+  - All item properties (event name, number of people, date and hour, location, description);
   - Buttons to update, delete and print to PDF the selected holiday plan.
 
   Create a new holiday plan page with fields for:
-  - Event name (type)
-  - Number of people (select)
-  - Date and hour (select or type)
-  - Location (select: drop-down menu button)
-  - Description (type)
-  - Save button (click to save the new plan)
+  - Event name (type);
+  - Number of people (select or type);
+  - Date and hour (select or type);
+  - Location (select: drop-down menu button);
+  - Description (type);
+  - Save button (click to save the new plan).
 
-- Update holiday plan page with the same format as the new holiday plan creation page.
+- Update holiday plan page with the same format as the new holiday plan creation page;
 
-- Client-side form validation, error handling and navigation for a seamless user experience.
+- Client-side form validation, error handling and navigation for a seamless user experience;
 
-- Data persistence using local storage to preserve data between sessions.
+- Data persistence using local storage to preserve data between sessions;
 
-- Responsive Design
+- Responsive Design;
 
-- Search Engine Optimization (SEO)
+- Search Engine Optimization (SEO).
 
 ## Features coming very soon !!!
 
-- API Development (creation of an API to save the project information)
+- API Development (creation of an API to save the project information).
 
 ## Getting Started
 
@@ -74,5 +82,5 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh;
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh.
