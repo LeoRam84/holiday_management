@@ -12,10 +12,12 @@ export default function ShowItem() {
   return (
     <div className="item">
       <div className="dashboard-card">
-        <h2>Event Name: {item.name}</h2>
-        <Link to={`/items/${item.id}/update`} className="button is-primary is-small">Update</Link>
-        <DeleteButton itemId={item.id} itemName={item.name} />
-        <PrintPdfButton itemId={item.id}></PrintPdfButton>
+        <div className="actions">
+          <h2>Event Name: {item.name}</h2>
+          <Link to={`/items/${item.id}/update`} className="button is-primary is-small">Update</Link>
+          <DeleteButton itemId={item.id} itemName={item.name} />
+          <PrintPdfButton itemId={item.id}></PrintPdfButton>
+        </div>
       </div>
       <div className="row">
         <span>Location: {item.category}</span>

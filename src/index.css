@@ -211,7 +211,6 @@ input, textarea, select {
     margin-left: 0.75rem;
     width: 5rem;
   }
-
 }
 
 @media (max-width: 910px) {
@@ -224,12 +223,46 @@ input, textarea, select {
   .row {
     gap: 0.5rem;
   }
+}
 
+@media screen and (min-width: 750px) {
+  .items-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .table-container {
+    display: none;
+  }
+
+  .items-container {
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+  }
+  .items-container .item {
+    background-color: #1c1a1d; 
+    padding: 1rem; 
+    margin-bottom: 1rem; 
+  }
+  .items-container .actions {
+    margin-top: 1rem; 
+  }
+  .item .actions {
+    margin-top: 1rem; 
+  }
 }
 
 @media screen and (max-width: 510px) {
   .logo {
     margin-right: 3rem; 
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .logo {
+    margin-right: 1.5rem; 
   }
 }
 
