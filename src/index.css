@@ -204,11 +204,10 @@ input, textarea, select {
 }
 
 @media (max-width: 1170px) {
-  .button {
+  .table-container .button {
     display: block;
     text-align: center;
     margin: 0.5rem;
-    margin-left: 0.75rem;
     width: 5rem;
   }
 }
@@ -222,6 +221,12 @@ input, textarea, select {
   }
   .row {
     gap: 0.5rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .item .actions .button {
+    margin-top: 0.5rem;
   }
 }
 
@@ -260,9 +265,25 @@ input, textarea, select {
   }
 }
 
+@media (max-width: 420px) {
+  .item .actions .button {
+    display: block;
+    text-align: center;
+    margin: 0.5rem;
+    width: 5rem;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .logo {
     margin-right: 1.5rem; 
+  }
+  
+  .items-container .actions .button {
+  display: block;
+  text-align: center;
+  margin: 0.5rem;
+  width: 5rem;
   }
 }
 
